@@ -1,0 +1,19 @@
+{
+    "openai": {
+      "api_key": "your-openai-api-key",
+      "model": "gpt-4o"
+    },
+    "anthropic": {
+      "api_key": "your-anthropic-api-key",
+      "model": "claude-3-sonnet-20240229"
+    },
+    "google": {
+      "api_key": "your-google-ai-api-key",
+      "model": "gemini-1.5-pro"
+    },
+    "vector_db": {
+      "url": "http://localhost:6333",
+      "collection": "document_chunks"
+    },
+    "output_dir": "./outputs"
+  }
